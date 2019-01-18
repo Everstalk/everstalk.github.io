@@ -1,0 +1,83 @@
+#particles-js{
+    background: rgba(129, 92, 64, 0.767);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.Center-name{
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.Projects-link a {
+    height: 250px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -200px;
+    text-decoration: none;
+}
+
+.LinkedIn-link a {
+    height: 250px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -120px;
+    text-decoration: none;
+}
+
+.Github-link a {
+    height: 250px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -30px;
+    text-decoration: none;
+}
+
+.Resume-link a {
+    height: 250px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+
+h1,h2,p {
+    font-family: Monaco;
+}
+
+a {
+    font-family: Monaco;
+    font-size:14px;
+}
+
+.Projects-page{
+    font-size: 14px;
+}
+
+
+a {color:rgb(0, 0, 0);}      /* unvisited link */
+a:visited {color:rgb(0, 0, 0);}  /* visited link */
+a:hover {color:rgb(12, 93, 117);}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
